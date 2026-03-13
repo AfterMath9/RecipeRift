@@ -279,7 +279,7 @@ body {
     margin-right: auto;
 }
 
-a.support-email-btn, .support-email-btn:link, .support-email-btn:visited {
+.support-email-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -295,7 +295,7 @@ a.support-email-btn, .support-email-btn:link, .support-email-btn:visited {
     margin: 10px 0 20px 0;
 }
 
-a.support-email-btn:hover, a.support-email-btn:active {
+.support-email-btn:hover {
     background-color: var(--brand-green-dark) !important;
     color: #ffffff !important;
     transform: translateY(-2px);
