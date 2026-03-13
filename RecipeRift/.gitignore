@@ -1,0 +1,27 @@
+
+## User settings
+xcuserdata/
+
+## Checkouts
+Carthage/Checkouts
+
+## Build generated
+build/
+DerivedData/
+
+## Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Icon
+Icon?
+
+## Document thumbnails
+._*
+
+## Xcode
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
