@@ -278,6 +278,27 @@ body {
     margin-right: auto;
 }
 
+.support-email-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: var(--brand-green);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 12px rgba(28, 173, 103, 0.3);
+    margin: 10px 0 20px 0;
+}
+
+.support-email-btn:hover {
+    background-color: var(--brand-green-dark);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(28, 173, 103, 0.4);
+}
+
 /* Features Grid */
 .features-grid {
     display: grid;
