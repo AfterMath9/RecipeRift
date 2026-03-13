@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RecipeRift - Discover, Save, and Enjoy Amazing Recipes.">
-    <title>RecipeRift</title>
+    <meta name="description" content="RecipeRift - Discover amazing recipes based on the ingredients you already have at home.">
+    <title>RecipeRift - Your Smart Kitchen Assistant</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -12,6 +12,7 @@
     <nav class="navbar glass">
         <div class="logo">RecipeRift</div>
         <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#privacy">Privacy</a></li>
             <li><a href="#support">Support</a></li>
@@ -21,14 +22,14 @@
     <main>
         <section id="hero" class="hero">
             <div class="glass glass-card hero-content">
-                <h1>Unlock Culinary Excellence</h1>
-                <p>Discover, organize, and cook your favorite recipes with RecipeRift. Your ultimate kitchen companion right on your iOS device.</p>
+                <h1>Cook with What You Have</h1>
+                <p>Stop stressing about what to cook. Add the ingredients you already have at home, and RecipeRift instantly finds delicious recipes you can make right now.</p>
                 <div class="download-container">
                     <a href="#" class="download-btn">
-                        <svg viewBox="0 0 384 512" width="20" height="20" fill="currentColor">
+                        <svg viewBox="0 0 384 512" width="24" height="24" fill="currentColor">
                            <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
                         </svg>
-                        Download on the App Store
+                        <span>Download on the App Store</span>
                     </a>
                 </div>
             </div>
@@ -39,31 +40,60 @@
             </div>
         </section>
 
+        <section id="features" class="section glass-section">
+            <div class="container mx-auto">
+                <div class="section-header text-center">
+                    <h2>Smart Features</h2>
+                    <p class="section-subtitle">Everything you need to turn your pantry into a 5-star kitchen.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card glass glass-card">
+                        <div class="feature-icon icon-green">🥑</div>
+                        <h3>Pantry Management</h3>
+                        <p>Easily log the ingredients you own at home. RecipeRift keeps track of your kitchen inventory so you always know what's available.</p>
+                    </div>
+                    
+                    <div class="feature-card glass glass-card">
+                        <div class="feature-icon icon-gold">✨</div>
+                        <h3>Recipe Matching</h3>
+                        <p>Don't know what to make? The app intelligently searches our vast, API-driven recipe database to find meals that perfectly match your current ingredients.</p>
+                    </div>
+
+                    <div class="feature-card glass glass-card">
+                        <div class="feature-icon icon-video">🎥</div>
+                        <h3>Guided Instructions</h3>
+                        <p>Get foolproof cooking instructions complete with exact ingredient measurements and integrated YouTube video tutorials showing you exactly how it's done.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="about" class="section glass-section">
-            <div class="container glass-card mx-auto">
+            <div class="container glass-card mx-auto text-center">
                 <h2>About RecipeRift</h2>
-                <p>RecipeRift is more than just a cookbook—it's an interactive experience. Explore new cuisines, create grocery lists effortlessly, and manage your kitchen inventory in one place. Whether you're a seasoned chef or a beginner, RecipeRift adapts to your culinary journey.</p>
+                <p>RecipeRift eliminates the everyday struggle of answering "what's for dinner?". By letting you input the ingredients sitting in your fridge, we open up a world of culinary possibilities without requiring a trip to the store. Whether you're a seasoned chef or a beginner trying to use up leftover vegetables, RecipeRift adapts to your kitchen journey.</p>
             </div>
         </section>
 
         <section id="privacy" class="section glass-section">
-            <div class="container glass-card mx-auto">
+            <div class="container glass-card mx-auto text-center">
                 <h2>Privacy Policy</h2>
-                <p>Your privacy is important to us. RecipeRift minimizes data collection, ensuring that your culinary secrets and personal details remain yours alone. All recipe data and custom preferences are stored securely. We do not sell your personal data to third parties.</p>
+                <p>Your privacy is fundamentally important to us. RecipeRift minimizes data collection, ensuring that your culinary secrets and personal details remain yours alone. All recipe data and custom preferences are stored securely. We do not sell your personal data to third parties.</p>
                 <p>If you choose to synchronize data across devices, your data is securely transmitted and encrypted using industry standard protocols.</p>
             </div>
         </section>
 
         <section id="support" class="section glass-section">
-            <div class="container glass-card mx-auto">
+            <div class="container glass-card mx-auto text-center">
                 <h2>Support</h2>
                 <p>Need help with RecipeRift? We've got your back.</p>
                 <ul class="support-list">
-                    <li><strong>Email:</strong> support@reciperift.example.com</li>
-                    <li><strong>FAQ:</strong> How do I add my own recipe? Go to the "+" button on the 'My Recipes' tab.</li>
-                    <li><strong>FAQ:</strong> Missing an ingredient? Use the 'Add to Grocery List' feature directly from any recipe.</li>
+                    <li><strong>Email:</strong> amrmafalani@yahoo.com</li>
+                    <li><strong>FAQ:</strong> <em>How do I find recipes?</em> Add the ingredients you have at home in the app, and we'll show you what you can cook.</li>
+                    <li><strong>FAQ:</strong> <em>Are there video tutorials?</em> Yes! Most recipes include an embedded YouTube video tutorial for visual guidance.</li>
                 </ul>
-                <p>We try to respond to all inquiries within 24 hours.</p>
+                <p>We aim to respond to all inquiries within 24 hours.</p>
             </div>
         </section>
     </main>
