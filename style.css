@@ -168,6 +168,7 @@ body {
     letter-spacing: -1.5px;
     background: linear-gradient(135deg, var(--text-color), var(--brand-green));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -278,25 +279,27 @@ body {
     margin-right: auto;
 }
 
-.support-email-btn {
-    display: inline-block;
+a.support-email-btn, .support-email-btn:link, .support-email-btn:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 28px;
-    background-color: var(--brand-green);
-    color: #ffffff;
-    text-decoration: none;
+    background-color: var(--brand-green) !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
     border-radius: 100px;
     font-weight: 700;
     font-size: 1.1rem;
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-    box-shadow: 0 4px 12px rgba(28, 173, 103, 0.3);
+    box-shadow: 0 4px 12px rgba(28, 173, 103, 0.3) !important;
     margin: 10px 0 20px 0;
 }
 
-.support-email-btn:hover {
-    background-color: var(--brand-green-dark);
-    color: #ffffff;
+a.support-email-btn:hover, a.support-email-btn:active {
+    background-color: var(--brand-green-dark) !important;
+    color: #ffffff !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(28, 173, 103, 0.4);
+    box-shadow: 0 6px 16px rgba(28, 173, 103, 0.4) !important;
 }
 
 /* Features Grid */
